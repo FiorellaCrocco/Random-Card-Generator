@@ -1,1 +1,60 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+* {
+  background-color: green;
+}
+
+.card {
+  position: relative;
+  margin: 60px auto;
+  width: 280px;
+  height: 400px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  display: block;
+}
+
+.palo-sup {
+  background-color: white;
+  position: relative;
+  font-size: 70px;
+  height: 25%;
+  padding-right: 200px;
+}
+
+.numero {
+  background-color: white;
+  position: relative;
+  font-size: 120px;
+  height: 50%;
+  text-align: center;
+}
+
+.palo-inf {
+  background-color: white;
+  position: relative;
+  font-size: 70px;
+  float: right;
+  height: 25%;
+  padding-left: 10px;
+  transform: rotate(180deg);
+  -ms-transform: rotate(180deg); /* IE 9 */
+  -webkit-transform: rotate(180deg); /* Opera, Chrome, and Safari */
+}
+
+.rojo {
+  color: tomato;
+}
+
+.negro {
+  color: black;
+}
+
+.boton {
+  background-color: white;
+  border-color: rgb(230, 222, 222);
+  margin: 30px;
+  margin-bottom: 0px;
+  border-radius: 8px;
+}
